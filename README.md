@@ -13,6 +13,8 @@
 
 2、由于作者使用Go的版本比较高，因此导致win2008和win7 及之前的windows版本无法运行，目前测试，最低支持win server2012
 
+3、由于工具本省内置大量规则，导致火绒、360等杀毒软件均会报毒，使用前 请确认MD5值是否相同；
+
 免责声明：此工具仅限于安全研究，用户承担因使用此工具而导致的所有法律和相关责任！作者不承担任何法律责任
 
 ## 工具运行界面
@@ -47,10 +49,10 @@
 
 ### 使用外挂规则进行扫描
 1、扫描模式选择：external
-2、输入规则路径
-![image](https://github.com/user-attachments/assets/c5b091c3-8fe9-4650-b25a-0e8ec487c581)
-![image](https://github.com/user-attachments/assets/39e39b7b-c0fe-4012-b1e6-7f810557be32)
 
+2、输入规则路径
+
+![image](https://github.com/user-attachments/assets/db1c4401-7fea-4a9c-9d5a-2e7c9d669ea3)
 
 
 
