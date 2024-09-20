@@ -16,7 +16,8 @@
 免责声明：此工具仅限于安全研究，用户承担因使用此工具而导致的所有法律和相关责任！作者不承担任何法律责任
 
 ## 工具运行界面
-![image](https://github.com/user-attachments/assets/d154c6cb-39cb-44b4-a21e-42de39204c42)
+![image](https://github.com/user-attachments/assets/a809e82c-0a35-4e5d-9151-27b59137a028)
+
 
 ## 功能
 ### 进程扫描
@@ -25,21 +26,31 @@
 2、由于担心扫描过程会影响主机正常业务和提高扫描效率，因此可设置不扫描内存占用大的进程，这个必须要填写，不填写则不会扫描所有进程；
 
 3、可以指定规则库进行扫描，internal只使用内置规则、external只使用自定义规则、both两个规则一起用，也会出现两个输出表格；使用external和both都需要指定外挂规则库的路径；
-![d53993faef51ebcb04034fee9853898](https://github.com/user-attachments/assets/64ac6a34-d503-4b70-9bb4-89e2ef50788c)
-![80fb0f6732e9aa4bfb32865f2ee62c7](https://github.com/user-attachments/assets/bd5264e7-1ce6-469d-b37d-d6772ef9e861)
+![image](https://github.com/user-attachments/assets/bb05fcb0-bc55-4504-b6ac-df729293de2d)
+![image](https://github.com/user-attachments/assets/a73f2798-c3f7-4727-8d70-86f32492e2b2)
+
 
 ### 文件扫描
 1、指定目录进行扫描，会递归扫描目录下面的所有类型文件；
 
 2、扫描模式跟上面进程扫描模式一样，不在赘述；
-![01590c0585eaddf636e23a6a16624f2](https://github.com/user-attachments/assets/aad1c82f-2c0f-44b6-84f1-003df00973ed)
-![64f3aee570d7cde657875db3bd594bf](https://github.com/user-attachments/assets/a640baeb-3d07-4a47-8eb1-12276441f91c)
+![image](https://github.com/user-attachments/assets/0913ac19-d2d0-4b3d-930c-3a7ebf55da50)
+![image](https://github.com/user-attachments/assets/3d575394-8445-4fb9-b5de-593be2087733)
+
+
 
 ### MD5计算及查找
 1、计算指定文件的MD5值；
 
 2、根据MD5值，在指定目录查找是否存在相同文件；
-![efbd5f3e015018fc75cbfe7e22a9cd1](https://github.com/user-attachments/assets/1b262506-7086-4834-b33b-0a17aa05e64a)
+![image](https://github.com/user-attachments/assets/d66efd47-602a-4ea5-913c-45dabe757d19)
+
+### 使用外挂规则进行扫描
+1、扫描模式选择：external
+2、输入规则路径
+![image](https://github.com/user-attachments/assets/c5b091c3-8fe9-4650-b25a-0e8ec487c581)
+![image](https://github.com/user-attachments/assets/39e39b7b-c0fe-4012-b1e6-7f810557be32)
+
 
 
 
